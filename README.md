@@ -36,7 +36,6 @@ npm install
 ```bash
 npm run dev
 ```
-The portfolio will be available at http://localhost:5173/ by default.
 
 ## 5. Customize
 
