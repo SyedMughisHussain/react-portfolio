@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="#github">Days I Code</a>
           </li>
           <li>
             <a href="#contact" className="navbar-btn">
