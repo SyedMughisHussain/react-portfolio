@@ -10,7 +10,9 @@ const ProjectCard = (props) => {
   return (
     <div className="project-card">
       <div className="project-img">
-        <img src={props.img} alt={props.name} />
+        <img style={{
+          objectFit: "cover"
+        }} src={props.img} alt={props.name} />
       </div>
       <div className="project-title">
         <h2>{props.name}</h2>
@@ -20,7 +22,9 @@ const ProjectCard = (props) => {
       </div>
       <div className="project-links">
         {props.source && (
-          <div>
+          <div style={{
+            display: "flex"
+          }}>
             <a href={props.source} className="github">
               <FaGithub />
             </a>

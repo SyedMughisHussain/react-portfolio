@@ -2,6 +2,24 @@
 
 const projects = [
   {
+    name: "LMS",
+    description:
+      "Learning Management System build using ReactJS and Firebase.The project consist of two dashboards named as Admin and Student Dashboard.Admin can create new course, see all courses and see all students with available courses.",
+    img: "/lms.png",
+    sourceCode:
+      "https://github.com/SyedMughisHussain/learning-management-system",
+    preview: "https://learning-management-system-sage.vercel.app/login",
+  },
+  {
+    name: "Weather App",
+    description:
+      "Weather app build using ReactJS and OpenWeather Api.In this app user can search different cities weather from any where, by default it shows karachi weather.",
+    stack: ["React", "NodeJS", "Express", "MongoDB"],
+    sourceCode: "https://github.com/SyedMughisHussain/react-weather-app",
+    img: "/weather.png",
+    preview: "https://react-weather-app-navy-eta.vercel.app/",
+  },
+  {
     name: "Blogging App",
     description:
       "Blogging App is a full stack app built using HTML, CSS, JavaScript and Firebase as a backend service.In this app user can read, create, update and delete blogs.Here user also have dashboard and profile.",
@@ -9,15 +27,6 @@ const projects = [
     sourceCode: "https://github.com/SyedMughisHussain/blogging-app",
     img: "/blogApp.png",
     preview: "https://blogging-app-delta-five.vercel.app/",
-  },
-  {
-    name: "Weather App",
-    description:
-      "weather app build using HTML, CSS, JavaScript and OpenWeather Api.In this app user can serach for to see wether of any city in the world, by default it shows weather of Karachi city. ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/SyedMughisHussain/weather-app-js",
-    img: "/weatherApp.png",
-    preview: "https://weather-app-js-rose-iota.vercel.app/",
   },
   {
     name: "Todo App",
@@ -31,7 +40,7 @@ const projects = [
   {
     name: "Pig Game",
     description:
-      "Drum Kit build using HTML, CSS and JavaScript.In this app thers are two players tha t have dice to roll and holds there turn.In this game any player firstly scored 100 points that will ne the winner of the game and game restarted again.",
+      "Pig game build using HTML, CSS and JavaScript.In this game there are two players that have dice to roll and holds there turn.Between of them any player hits 100 score that wins.",
     stack: ["React", "NodeJS", "Express", "MongoDB"],
     sourceCode: "https://github.com/SyedMughisHussain/pig-game-js",
     img: "/pigGame.png",
