@@ -13,8 +13,8 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import ContactForm from "./components/ContactForm";
 import HowDaysICode from "./components/GithubCalender";
-import { Button } from "./components/ui/button";
-
+import certifcates from "./content/certifications";
+import CertificateCard from "./components/CertificateCard";
 
 function App() {
   const controls = useAnimation();
@@ -91,8 +91,28 @@ function App() {
           ))}
         </motion.div>
       </section>
+      <section id="certifications">
+        <Heading firstWord="Certifi" secondWord="cations" />
+        <motion.div
+          className="project-map"
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={containerVariants}
+        >
+          {certifcates.map((project, index) => (
+            <div key={index}>
+              <CertificateCard
+                img={project.img}
+                title={project.title}
+                description={project.description}
+              />
+            </div>
+          ))}
+        </motion.div>
+      </section>
       <section id="github">
-        <Heading firstWord="HowDays" secondWord="ICode"/>
+        <Heading firstWord="HowDays" secondWord="ICode" />
         <HowDaysICode />
       </section>
       <section id="contact">
